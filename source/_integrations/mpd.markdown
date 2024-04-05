@@ -43,6 +43,10 @@ password:
   description: Password for your Music Player Daemon.
   required: false
   type: string
+unique_id:
+  description: A unique id for your Music Player Daemon so that it may be controlled via the HA UI.
+  required: false
+  type: string
 {% endconfiguration %}
 
 Example script to load a saved playlist called "DeckMusic" and set the volume:
